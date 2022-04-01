@@ -78,7 +78,7 @@ The results obtained are like StepLR and the performance is as expected. All the
 
 The super fast learning rates selection method proposed in [*Super-Convergence: Very Fast Training of Neural Networks Using Large Learning Rates*](https://arxiv.org/abs/1708.07120) is very useful, which is illurstarted in extensive experiments. Further analysis can be done using other popular optimizers like [Adam](https://arxiv.org/abs/1412.6980), [LAMB](https://arxiv.org/abs/1904.00962) and [LARS](https://arxiv.org/abs/1708.03888).
 
-Colossal AI can be regarded as a powerful helper when conduct large size traning. To achieve super-convergence goals, we can use Colossal AI to select a range of learning rates in very few epochs for specific optimizers, then the selected learning rates can be used in real large-scale training and saves a lot of resources for parameter tuning. Combining these two method or tool, super-convergence and Colossal AI, researchers and engineers can quickly deploy  large-scale distributed machine learning models anytime, anywhere.
+Colossal AI can be regarded as a powerful helper when conduct large-scale training. To achieve super-convergence goals, we can use Colossal AI to select a range of learning rates in very few epochs for specific optimizers, then the selected learning rates can be used in real large-scale training and saves a lot of resources for parameter tuning. Combining these two method or tool, super-convergence and Colossal AI, researchers and engineers can quickly deploy  large-scale distributed machine learning models anytime, anywhere.
 
 
 
