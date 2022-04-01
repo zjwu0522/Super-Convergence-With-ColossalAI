@@ -1,6 +1,6 @@
 # Super Convergence With ColossalAI
 
-#### - Assignment 6: Super Fast Learning Rate Range Test with [Colossal AI](https://github.com/hpcaitech/ColossalAI)
+#### - CS5260 Assignment 6: Super Fast Learning Rate Range Test with [Colossal AI](https://github.com/hpcaitech/ColossalAI)
 
 This repo serves as my solution for assignment 6 in NUS CS5260 22Spring: Neural Network and Machine Learning II, instructed by [Prof. Yang You](https://www.comp.nus.edu.sg/~youy/).
 
