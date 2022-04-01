@@ -24,7 +24,7 @@ Other high-performance training optimizers, such as LAMB, LARS, etc., can be exp
 
 ### Range Test
 
-<img src="/Users/zijian/Desktop/tensorboard.png" alt="tensorboard" style="zoom:50%;" />
+<img src="img/tensorboard.png" alt="tensorboard" style="zoom:50%;" />
 
 - Learning rate range test results using [*Super-Convergence: Very Fast Training of Neural Networks Using Large Learning Rates*](https://arxiv.org/abs/1708.07120)
 - This experiment is done with Colossal AI to conduct very far range test
@@ -50,7 +50,7 @@ Do not use any scheduler.
 
 Training loss and test acc are presented as follows.
 
-<img src="/Users/zijian/Desktop/no_scheduler.png" alt="no_scheduler" style="zoom:67%;" />
+<img src="img/no_scheduler.png" alt="no_scheduler" style="zoom:67%;" />
 
 For these experiments, all the selected learning rates perform very well. Even using the worst one: LR = 0.1200, the traning loss ca n still convergy and test acc can achieve a satisfactory performance.
 
@@ -60,7 +60,7 @@ Using StepLR, learning rate decreased by `gamma=0.5` after every 2000 optimizati
 
 Training loss and test acc are presented as follows.
 
-<img src="/Users/zijian/Desktop/StepLR.png" alt="StepLR" style="zoom:67%;" />
+<img src="img/StepLR.png" alt="StepLR" style="zoom:67%;" />
 
 The results are as expected that these selected learning rates can quickly convergy. Especially when `LR=0.0022` and `LR=0.0611`, these two learning rates can make the training loss almost converge within 1000 optimization steps.
 
@@ -70,7 +70,7 @@ Using MultiStepLR, learning rate decreased by `gamma=0.1` at `milestone=[2000, 4
 
 Training loss and test acc are presented as follows.
 
-<img src="/Users/zijian/Desktop/MultiStepLR.png" alt="MultiStepLR" style="zoom:67%;" />
+<img src="img/MultiStepLR.png" alt="MultiStepLR" style="zoom:67%;" />
 
 The results obtained are like StepLR and the performance is as expected. All these experiments can prove that the learning rate selected by super-convergence is very reliable. These selected learning rates can perform very well under different schedulers.
 
